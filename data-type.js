@@ -8,7 +8,7 @@ data = {
 data = [12, 13, 14, 15, 16, 17, 18];
 data = undefined;
 data = null;
-console.log(typeof data);
+// console.log(typeof data);
 
 // nonprimitive
 const price = 50;
@@ -20,3 +20,13 @@ const student = {
   subject: "CSC",
 };
 const friend = ["tom", "bob", "jeck", "rock"];
+
+// unfefined not define
+let money;
+function total(a, b) {
+  if (a && b) {
+    const sum = a + b;
+    return sum;
+  }
+}
+console.log(total(2, 2));
