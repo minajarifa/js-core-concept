@@ -24,7 +24,7 @@ const friend = ["tom", "bob", "jeck", "rock"];
 // unfefined not define
 let money;
 function total(a, b) {
-  console.log("valie of paramiters", a,b);
+//   console.log("valie of paramiters", a,b);
   if (a === undefined || b === undefined){
     return
   }
@@ -33,4 +33,11 @@ function total(a, b) {
       return sum;
     }
 }
-console.log(total(2, 2));
+// console.log(total(2, 2));
+const phone={
+    brand: "sumsu",
+    price: 12500,
+}
+const bank=['sunali','rupali','jamuna']
+delete bank[1]
+console.log(typeof null)
