@@ -24,9 +24,13 @@ const friend = ["tom", "bob", "jeck", "rock"];
 // unfefined not define
 let money;
 function total(a, b) {
-  if (a && b) {
-    const sum = a + b;
-    return sum;
+  console.log("valie of paramiters", a,b);
+  if (a === undefined || b === undefined){
+    return
   }
+    if (a && b) {
+      const sum = a + b;
+      return sum;
+    }
 }
 console.log(total(2, 2));
